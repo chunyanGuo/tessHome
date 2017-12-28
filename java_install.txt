@@ -1,0 +1,9 @@
+1 // download jre-8u151-linux-i586.tar.gz
+2 --
+  mkdir -p /usr/java   # by root user
+3 --
+  cp jre-8u151-linux-i586.tar.gz /usr/java
+4 --
+  cd /usr/java
+5 --
+  tar zxvf jre-8u151-linux-i586.tar.gz
