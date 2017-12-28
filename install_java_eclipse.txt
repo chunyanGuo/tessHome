@@ -1,3 +1,6 @@
+################################
+# java installation
+################################
 1 -- download jre-8u151-linux-i586.tar.gz
 2 --
   mkdir -p /usr/java   # by root user
@@ -18,3 +21,7 @@
   source /etc/profile
 8 -- check java version
   java -version
+
+################################
+# eclipse installation
+################################
