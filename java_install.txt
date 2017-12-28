@@ -1,4 +1,4 @@
-1 // download jre-8u151-linux-i586.tar.gz
+1 -- download jre-8u151-linux-i586.tar.gz
 2 --
   mkdir -p /usr/java   # by root user
 3 --
@@ -7,3 +7,14 @@
   cd /usr/java
 5 --
   tar zxvf jre-8u151-linux-i586.tar.gz
+
+6 -- add JAVA_HOME and PATH to /etc/profile
+  -- variable added in this file is available for all users
+  vi /etc/profile
+  export PATH USER LOGNAME MAIL HOSTNAME HISTSIZE HISTCONTROL
+  export JAVA_HOME=/usr/java/jre1.8.0_151
+  export PATH= $PATH:/usr/java/jre1.8.0_151/bin
+7 -- enable environment var
+  source /etc/profile
+8 -- check java version
+  java -version
