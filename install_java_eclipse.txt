@@ -25,3 +25,5 @@
 ################################
 # eclipse installation
 ################################
+1 -- downolad eclipse-inst-linux64.tar.gz 
+2 --
