@@ -16,7 +16,7 @@
   vi /etc/profile
   export PATH USER LOGNAME MAIL HOSTNAME HISTSIZE HISTCONTROL
   export JAVA_HOME=/usr/java/jre1.8.0_151
-  export PATH= $PATH:/usr/java/jre1.8.0_151/bin
+  export PATH=$PATH:/usr/java/jre1.8.0_151/bin
 7 -- enable environment var
   source /etc/profile
 8 -- check java version
