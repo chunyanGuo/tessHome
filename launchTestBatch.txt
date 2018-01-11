@@ -1,0 +1,9 @@
+###########################
+# running LTB
+###########################
+export REPO=/repo/auto/atc
+cd /repo/auto/atc/cm8/auto/tools/pbscript/
+launchTestBatch -v -k -D /home/auto/ROBOT_LOG/temp -f -r CFERC -N DRNTB -T smoke -R 5.8 -u babukr -b 58.068p07 -A legacy -G 135.249.38.182 -V NC_DPU -P PCTA:135.249.39.182 -a --framework ROBOT -e MERC
+# will create pybot command like following
+# pybot --debugfile debug_record.txt  --include smoke --loglevel debug --outputdir /tftpboot/atx/atxuser/SB_Logs_01102018-113901/ROBOT --skipteardownonexit  --variable PRODUCT:NC_DPU --variable BUILD:58.068p07 --variable RELEASE:5.8 --variable SETUPFILENAME:/repo/atxuser/robot/SETUPS/NC_DPU_CFERC_DRNTB_SMOKE_SETUPFILE_38_182.csv --prerunmodifier /repo/atxuser/robot/LIBS/PRE_RUN_MODIFIER/release_test.py:5.8  --prerunmodifier capability_driven:NT_DRNTB,SHELF_CFERC:5.8:/repo/atxuser/robot/SW_DESCRIPTION/NC_DPU/capability.yaml  --prerunmodifier /repo/atxuser/robot/LIBS/PRE_RUN_MODIFIER/exclude_tests.py:DPU_L2FWD_VLAN_TRAF_11:DPU_L2FWD_VLAN_TRAF_ALU02253274:DPU_L2FWD_VLAN_TRAF_ALU02251601:DPU_L2FWD_VLAN_TRAF_ALU02255581:DPU_L2FWD_VLAN_TRAF_28:DPU_l2FWD_VLAN_TRAF_29 /repo/atxuser/robot/ATS/NC_DPU
+###########################
