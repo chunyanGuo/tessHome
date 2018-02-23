@@ -1,0 +1,15 @@
+
+###############################################
+# first try for RED 0.0.1 on eclipse neon
+###############################################
+# java
+1 -- install jre-8u161-linux-x64.rpm
+
+# eclipse
+2 -- install eclipse-jee-neon-3-linux-gtk-x86_64.gz
+
+# RED
+3 -- help-> install->new software->archive RED_feature_0.8.1.201711231052.zip
+
+##############################################
+#
