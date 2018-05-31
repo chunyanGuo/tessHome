@@ -13,5 +13,7 @@ launchTestBatch -v -k -D /home/auto/ROBOT_LOG/temp -f -r CFERC -N DRNTB -T smoke
 ###########################
 luanchTestBatch -v -k -D /tftpboot/atx/atxuser/SB_Logs_05282018-094926 -f -r CFERC -N DRNTB -T smoke -R 6.0 -u RLAB -b 60.022p04 -A legacy -G 135.249.38.182 -K /tftpboot/atx/loads/SD_60.022p04.extra.tar -V NC_DPU:NC_DPU_CFERC_DRNTB_SMOKE_SETUPFILE_38_182.csv -P PCTA:135.249.39.182 -i atxuser -j alcatel01 –d ROBOT:dryrun-enable -e MERC
 
+# from sun yuefeng
+/repo/auto/atc/cm8/auto/tools/pbscript/launchTestBatch -f -r NFXSD -N FANTF -T weekly -R 5.8.01 -b 5801.336 -A legacy -G 135.251.199.40 -d OT:suite-SDAL01,QOS, P2P:P2P_NFXSD_FANTF_WEEKLY_SETUPFILE_245_41.csv --DUTLIST DUT_A -P PCTA:135.251.199.39,STC:135.251.198.100:networkport:4/6:clientport:4/5 --STC 4.66 -a --framework ROBOT -e MERC
 
 
